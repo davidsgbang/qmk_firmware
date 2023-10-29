@@ -5,3 +5,18 @@
 
 #pragma once
 
+/**
+ * Configure the global tapping term (default: 200ms).
+ * If you have a lot of accidental mod activations, crank up the tapping term.
+ */
+#ifndef TAPPING_TERM
+#    define TAPPING_TERM 500
+#endif // TAPPING_TERM
+
+
+// Numerals.
+#define LAYOUT_LAYER_NUM                                                                        \
+    KC_1,    KC_2,    KC_3,    KC_4,    KC_5,      KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    \
+    KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, KC_F11,    KC_F12,  KC_RGUI, KC_RALT, KC_RCTL, KC_RSFT, \
+    KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,     KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  \
+    U_NA,    U_NA,    U_NA,    _______, KC_TAB,    KC_ENT,  _______, U_NA,    U_NA,    U_NA
