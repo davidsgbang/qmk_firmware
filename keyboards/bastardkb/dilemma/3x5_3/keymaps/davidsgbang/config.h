@@ -54,3 +54,5 @@
 
 #define ENCODERS_PAD_A { GP24 }
 #define ENCODERS_PAD_B { GP25 }
+
+#define TAPPING_TERM 200
