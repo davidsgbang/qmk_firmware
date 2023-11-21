@@ -50,7 +50,7 @@ KC_LCTL,        KC_LGUI,        KC_LALT,        U_NA,           U_NA,           
 KC_F1,          KC_F2,          KC_F3,          KC_F4,          KC_F5,          KC_F6,          KC_F7,          KC_F8,          KC_F9,          KC_F10,    \
 KC_LSFT,        U_NA,           U_NA,           U_NA,           KC_CAPS,        U_NA,           KC_LEFT,        KC_DOWN,        KC_UP,          KC_RIGHT, \
 KC_LCTL,        KC_LGUI,        KC_LALT,        U_NA,           U_NA,           U_NA,           U_NA,           U_NA,           U_NA,           U_NA,  \
-                                BL_TOGG,        _______,        _______,        _______,        _______,        BL_TOGG
+                                RGB_TOG,        _______,        _______,        _______,        _______,        RGB_TOG
 
 
 #define LAYOUT_wrapper(...) LAYOUT_split_3x5_3(__VA_ARGS__)
