@@ -455,7 +455,7 @@ Keyboards supporting this layout: centromere, crkbd, bastardkb/tbkmini.
 Example build command lines:
 
 #+BEGIN_SRC sh :tangle no
-make bastardkb/tbkmini:manna-harbour_miryoku:flash # bastardkb/tbkmini
+make bastardkb/dilemma/3x5_3:manna-harbour_miryoku # bastardkb/tbkmini
 make crkbd:manna-harbour_miryoku:flash # crkbd
 #+END_SRC
 
@@ -796,6 +796,6 @@ For [[#workflow-builds][workflow builds]], use the Build Inputs workflow and bui
 Also see [[https://github.com/manna-harbour/miryoku_kmonad][Miryoku KMonad]].
 
 
-** 
+**
 
 [[https://github.com/manna-harbour][https://raw.githubusercontent.com/manna-harbour/miryoku/master/data/logos/manna-harbour-boa-32.png]]
